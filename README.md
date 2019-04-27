@@ -4,7 +4,7 @@ Unreal Engine Plugin Templates
 ## Configure
 ### Asset Color
 _MyTextAssetActions.cpp_
-![asset type color](https://github.com/HRuivo/UnrealPluginTemplates/Docs/images/asset_type_color.JPG "Logo Title Text 1")
+![asset type color](https://github.com/HRuivo/UnrealPluginTemplates/blob/CustomAssetTypeAdv/Docs/images/asset_type_color.JPG)
 ```c++
 FColor FMyTextAssetActions::GetTypeColor() const
 {
@@ -15,7 +15,7 @@ FColor FMyTextAssetActions::GetTypeColor() const
 
 ### Asset Category
 _MyTextAssetActions.cpp_
-![asset type category](https://github.com/HRuivo/UnrealPluginTemplates/Docs/images/asset_type_category.JPG "Logo Title Text 1")
+![asset type category](https://github.com/HRuivo/UnrealPluginTemplates/blob/CustomAssetTypeAdv/Docs/images/asset_type_category.JPG)
 ```c++
 uint32 FMyTextAssetActions::GetCategories()
 {
