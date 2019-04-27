@@ -1,8 +1,8 @@
 # UnrealPluginTemplates
 ## Advanced Asset Type
 
-## Configure
-### Asset Color
+### Configure
+#### Asset Color
 _MyTextAssetActions.cpp_
 
 ![asset type color](https://github.com/HRuivo/UnrealPluginTemplates/blob/CustomAssetTypeAdv/Docs/images/asset_type_color.JPG)
@@ -14,7 +14,7 @@ FColor FMyTextAssetActions::GetTypeColor() const
 ```
 
 
-### Asset Category
+#### Asset Category
 _MyTextAssetActions.cpp_
 
 ![asset type category](https://github.com/HRuivo/UnrealPluginTemplates/blob/CustomAssetTypeAdv/Docs/images/asset_type_category.JPG)
