@@ -1,12 +1,22 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #include "CustomAsset.h"
+#include "MyTextAssetActions.h"
+#include "Modules/ModuleManager.h"
+#include "ISettingsModule.h"
+#include "ISettingsSection.h"
+#include "Modules/ModuleInterface.h"
 
 #define LOCTEXT_NAMESPACE "FCustomAssetModule"
 
 void FCustomAssetModule::StartupModule()
 {
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+	// Register asset types
+	IAssetTools& AssetTools = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools").Get();
+	{
+		TSharedRef<IAssetTypeActions> Action = MakeShareable(new FMyTextAssetActions);
+		AssetTools.RegisterAssetTypeActions(Action);
+	}
 }
 
 void FCustomAssetModule::ShutdownModule()
