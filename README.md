@@ -1,5 +1,5 @@
 # UnrealPluginTemplates
-Unreal Engine Plugin Templates
+## Advanced Asset Type
 
 ## Configure
 ### Asset Color
