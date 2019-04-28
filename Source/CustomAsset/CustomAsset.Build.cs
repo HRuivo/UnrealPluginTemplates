@@ -38,7 +38,9 @@ public class CustomAsset : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				"UnrealEd"
+				"UnrealEd",
+                "Json",
+                "JsonUtilities"
 			}
 			);
 		
