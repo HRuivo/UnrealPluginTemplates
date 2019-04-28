@@ -1,5 +1,8 @@
 # UnrealPluginTemplates
-## Advanced Asset Type
+## Advanced Asset Type with File Import Feature
+
+### Summary
+A new asset in the content browser is created with a drag-n-drop functionaly.
 
 ### Configure
 #### Asset Color
